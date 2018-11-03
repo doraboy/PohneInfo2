@@ -11,22 +11,40 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="test1"
+        android:text="test1(讀取通話紀錄)"
         android:onClick="test1"
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="test2"
+        android:text="test2(讀取通訊錄)"
         android:onClick="test2"
+        />
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="test3(讀取系統設定:螢幕亮度)"
+    android:onClick="test3"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test4(修改系統設定:螢幕亮度)"
+        android:onClick="test4"
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="test3"
-        android:onClick="test3"
+        android:text="test5(撈手機相簿中的圖片)"
+        android:onClick="test5"
         />
-
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
 </LinearLayout>
